@@ -1,0 +1,3 @@
+export TZ=':/etc/localtime'
+export export PYTHONPATH=/usr/python
+export TERM=linux

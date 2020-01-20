@@ -1,0 +1,16 @@
+ssh              22/tcp
+ssh              22/udp
+
+domain           53/tcp
+domain           53/udp
+
+snmp            161/tcp
+snmp            161/udp
+
+bgp             179/tcp
+bgp             179/udp
+
+rndc            953/tcp
+
+zebra           2601/tcp
+bgpd            2605/tcp

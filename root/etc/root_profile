@@ -1,0 +1,14 @@
+
+alias h='history'
+alias ls='ls --color=auto'
+alias l='ls -lL'
+alias ro='mount -rno remount,async /'
+alias rw='mount -wno remount,sync,noatime,nodiratime /'
+alias rwr='mount -wno remount,async,noatime,nodiratime /'
+alias psx='ps -o pid,ppid,vsz,rss,nice,user,time,args'
+alias fls='find . -exec ls -ld {} ";"'
+alias more=less
+alias ifc="ip addr | grep -E '(,UP,| scope )'"
+alias cc="mount -wno remount,sync / ; python -m compileall ${PYTHONPATH}"
+
+export EXINIT='set tabstop=4 ai'

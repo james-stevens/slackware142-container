@@ -1,0 +1,2 @@
+export PATH=/sbin
+alias ls='ls --color=auto'

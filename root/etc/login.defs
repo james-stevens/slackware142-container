@@ -1,0 +1,6 @@
+MOTD_FILE       /ram/etc/motd
+FTMP_FILE       /var/log/btmp
+NOLOGINS_FILE   /ram/etc/nologin
+SU_NAME         su
+ENV_SUPATH     PATH=/sbin
+ENV_PATH       PATH=/sbin

@@ -1,0 +1,4 @@
+LABEL=SlimRootFS      /                ext2        ro         1   1
+LABEL=SlimConfig      /opt/config      ext2        noexec,noatime,sync         1   2
+LABEL=SlimSwap        swap             swap        defaults         1   1
+LABEL=SlimData        /opt/data        reiserfs    noexec,noatime         1   2

@@ -1,0 +1,8 @@
+
+Welcome to the LILO Boot Loader!
+
+Please enter the name of the partition you would like to boot
+at the prompt below.  The choices are:
+
+Linux    -  (Linux partition)
+
