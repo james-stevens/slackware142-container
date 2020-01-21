@@ -498,7 +498,7 @@ EOF
     grep "^$shortname:" $DESCRIPTION >> $ADM_DIR/packages/$shortname 2> /dev/null
   fi
   echo "FILE LIST:" >> $ADM_DIR/packages/$shortname
-  ( cd $ROOT/ ; $packagecompression -dc | $TAR -xpvf - | sort ) < $package >> $TMP/$shortname 2> /dev/null
+  ( cd $ROOT/ ; $packagecompression -dc | $TAR -xlUpvf - | sort ) < $package >> $TMP/$shortname 2> /dev/null
   if [ "$( grep '^\./' $TMP/$shortname | wc -l | tr -d ' ')" = "1" ]; then
     # Good.  We have a package that meets the Slackware spec.
     cat $TMP/$shortname >> $ADM_DIR/packages/$shortname
