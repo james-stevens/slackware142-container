@@ -5,7 +5,7 @@ This is a container based on Slackware v14.2 x64 with
 * nginx v1.16.1
 * Python 3.8.1
 * busybox 1.32.1
-* sysvinit v2.88
+* sysvinit v2.89
 
 It is designed as a base container for securely running production quality Python `flask` micro-services in.
 
