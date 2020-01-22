@@ -76,3 +76,9 @@ $ make install
 
 This installed Python v3.8.1 into `/opt/python` on my dev server. This will not interfere with the Python you may 
 have already installed in the operating system. If you are at all concerned, I recommend you run the build in a container.
+
+
+If you want to rebuild the `nginx` binary, the `configure` command I used is in the file `nginx-configure`.
+So download the `nginx` package, extract it, go into the directory and run that configure script -
+or use different options, if you need them.
+
